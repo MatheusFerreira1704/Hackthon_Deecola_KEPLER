@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Inicio from "../views/Inicio.vue";
 import tiposColeta from "../views/tiposColeta.vue";
 import pontosColeta from "../views/pontosColeta.vue";
-
+import Formulario from "../views/formulario.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -21,6 +21,12 @@ const routes = [
     path: "/pontosColeta",
     name: "pontosColeta",
     component: pontosColeta,
+  },
+
+  {
+    path: "/formulario",
+    name: "formulario",
+    component: Formulario,
   },
 ];
 
