@@ -1,9 +1,9 @@
 <template>
   <div class="app-to-bar">
-    <v-app-bar scroll-target="grey darken-4">
+    <v-app-bar scroll-target="brown lighten-1" color="light-green lighten-4">
       <template> </template>
       <v-app-bar-nav-icon @click="drawer = true"> </v-app-bar-nav-icon>
-      <v-app-bar-title>ONG Ohana</v-app-bar-title>
+      <v-app-bar-title class="text-center">🌱 ONG Ohana 🌍</v-app-bar-title>
 
       <v-spacer></v-spacer>
 
@@ -43,7 +43,7 @@
             </v-list-item>
           </router-link>
 
-             <router-link to="/formulario">
+          <router-link to="/formulario">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-phone</v-icon>
@@ -51,7 +51,6 @@
               <v-list-item-title>Seja um volutário!</v-list-item-title>
             </v-list-item>
           </router-link>
-
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

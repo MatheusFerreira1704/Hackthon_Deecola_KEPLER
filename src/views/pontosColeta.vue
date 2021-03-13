@@ -37,7 +37,7 @@
     <v-dialog v-model="dialog" width="500">
       <v-card>
         <v-card-title class="headline grey lighten-2">
-          Reciclado no local.
+          Reciclado no local:
         </v-card-title>
         <v-card-text> {{ categoria }} </v-card-text>
       </v-card>
