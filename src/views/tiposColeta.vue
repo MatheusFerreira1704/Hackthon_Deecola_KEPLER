@@ -1,11 +1,6 @@
 <template>
   <v-card>
-    <v-container v-for="type in types" :key="type" class="green accent-1" fluid>
-      <!--<div class="tipo-titulo">
-      <h2 class="text-h5 text-center">O que podemos descartar?</h2>
-    </div>
-
-      <v-subheader>{{ type }}</v-subheader> -->
+    <v-container v-for="type in types" :key="type" fluid>
       <v-row>
         <v-spacer></v-spacer>
         <v-col
@@ -84,7 +79,7 @@
           <v-card>
             <v-img
               :src="
-                `http://www.alternativadescartaveis.com.br/mops-de-limpeza/imagens/quanto-custa-lixeira-coleta-seletiva-plastico.jpg?image=`
+                `https://www.seton.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/2/c2862-lg1_1.jpg`
               "
               height="300px"
             >
